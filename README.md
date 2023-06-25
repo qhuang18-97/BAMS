@@ -7,7 +7,7 @@ Training**.
 * OpenAI Gym 0.9.6
 * PyTorch 0.11.0 (CPU)
 * [visdom](https://github.com/facebookresearch/visdom)
-* Predator-Prey and Traffic Junction [Environments](https://github.com/apsdehal/ic3net-envs)
+* Predator-Prey [Environments](https://github.com/apsdehal/ic3net-envs)
 
 
 ## Environment Installation
@@ -20,8 +20,6 @@ cd IC3Net/ic3net-envs
 python setup.py develop
 ```
 
-**Optional**: If you want to run experiments on StarCraft, install the `gym-starcraft` package included in this package. Follow the instructions provided in README inside that packages.
-
 
 Next, we need to install dependencies for IC3Net including PyTorch. For doing that run:
 
@@ -33,9 +31,6 @@ pip install -r requirements.txt
 
 Once everything is installed, we can run the using these example commands
 
-Note: We performed our experiments on `nthreads` set to 16, you can change it according to your machine, but the plots may vary.
-
-Note: Use `OMP_NUM_THREADS=1` to limit the number of threads spawned
 
 ### Predator-Prey
 
