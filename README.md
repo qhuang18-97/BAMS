@@ -15,8 +15,8 @@ Training**.
 First, clone the repo and install ic3net-envs which contains implementation for Predator-Prey and Traffic-Junction
 
 ```
-git clone https://github.com/IC3Net/IC3Net
-cd IC3Net/ic3net-envs
+git clone https://github.com/qhuang18-97/BAMS.git
+cd BAMS/ic3net-envs
 python setup.py develop
 ```
 
