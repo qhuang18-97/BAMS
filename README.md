@@ -47,12 +47,6 @@ For larger environment, change the following arguments:
 - `dim` to 20
 
 
-## Contributors
-
-- Qinwei Huang 
-- Chen Luo
-- Qinru Qiu
-
 ## Reference
 
 The training framework is adapted from [IC3Net](https://github.com/IC3Net/IC3Net)
