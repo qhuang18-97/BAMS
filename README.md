@@ -3,6 +3,18 @@
 This repository contains reference implementation for BAMS, **Multi-agent Cooperative Games Using Belief Map Assisted
 Training**.
 
+## Cite
+
+If you use this code or BAMS in your work, please cite the following:
+```
+@article{,
+  title={Multi-agent Cooperative Games Using Belief Map Assisted Training},
+  author={Luo, Chen and Huang, Qinwei and Wu, Alex and Khan, Simon and Li, Hai And Qiu, Qinru},
+  journal={},
+  year={2023}
+}
+```
+
 ## Requirements
 * OpenAI Gym 0.9.6
 * PyTorch 0.11.0 (CPU)
