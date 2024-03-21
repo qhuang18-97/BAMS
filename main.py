@@ -2,7 +2,7 @@ import sys
 import time
 import signal
 import argparse
-
+import data
 import numpy as np
 import torch
 from models import *
