@@ -170,7 +170,6 @@ class PredatorPreyEnv(gym.Env):
 
         # Locations
         locs = self._get_cordinates()
-        locs[-1] = [5,5]
         self.predator_loc, self.prey_loc = locs[:self.npredator], locs[self.npredator:]
         self.get_min_steps()
         '''
@@ -236,9 +235,7 @@ class PredatorPreyEnv(gym.Env):
         return a, b
 
     def _get_cordinates(self):
-        np.random.seed(0)
         idx = np.random.choice(np.prod(self.dims),(self.npredator + self.nprey), replace=False)
-        idx[-1] = np.random.randint(0,144)
         return np.vstack(np.unravel_index(idx, self.dims)).T
 
     def _set_grid(self):
